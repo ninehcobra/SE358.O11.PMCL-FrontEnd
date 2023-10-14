@@ -1,0 +1,283 @@
+.login-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    font-weight: 600;
+
+    .left-content {
+        height: 100vh;
+        padding: 0;
+        text-align: center;
+        width: 41.66667%;
+        position: relative;
+        color: #fff;
+
+        .background-left {
+            .img {
+                width: 100%;
+                vertical-align: middle;
+            }
+
+            .content-note {
+                bottom: 5%;
+                text-align: center;
+                z-index: 2;
+                position: absolute;
+                width: 100%;
+
+                img {
+                    height: 100px;
+                }
+
+                .left-row2 {
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 143.2%;
+                    text-transform: uppercase;
+                    margin-top: 23px;
+                    margin-bottom: 19px;
+                }
+
+                .left-row3 {
+                    font-size: 16px;
+                    line-height: 143.2%;
+                    font-style: italic;
+                }
+            }
+
+            .backdrop {
+                position: absolute;
+                width: 100%;
+                background: linear-gradient(1turn, #00467f, rgba(0, 70, 127, 0) 94.6%);
+                height: 65%;
+                bottom: 0;
+                z-index: 1;
+            }
+        }
+    }
+
+    .right-content {
+        text-align: center;
+        vertical-align: middle;
+        height: 100vh;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-align: center;
+        background: #fff;
+        width: 58.33333%;
+
+        .form-content {
+            width: 100%;
+            display: inline-block;
+            margin: auto;
+
+            .login-content {
+                .title-login {
+                    padding: 0 24px 43px;
+
+                    .login-row-1 {
+                        font-size: 24px;
+                        color: #000;
+
+                    }
+
+                    .login-row-2 {
+                        font-size: 16px;
+                        color: #ff6339;
+                        margin-top: 0;
+                        margin-bottom: 1rem;
+
+                    }
+                }
+
+                .login-form {
+                    text-align: left;
+
+                    .register-row-4 {
+                        text-align: center;
+                        margin-top: 12px;
+
+                        .content-register {
+                            text-align: center;
+                            width: 100%;
+
+                            .form-group {
+                                p {
+                                    margin-top: 12px;
+                                    margin-bottom: 1rem;
+                                    color: #141414;
+                                    font-size: 14px;
+                                }
+
+                                .register-button {
+                                    cursor: pointer;
+                                    width: 300px;
+                                    margin-top: 20px !important;
+                                    display: inline-block;
+                                    text-align: center;
+                                    vertical-align: middle;
+                                    padding: 0.375rem 0.75rem;
+                                    line-height: 1.5;
+                                    color: white !important;
+                                    background: #ff6339 !important;
+                                    height: 44px !important;
+                                    border-radius: 12px !important;
+                                    border: none !important;
+                                    font-size: 16px !important;
+                                    font-weight: 600 !important;
+                                    margin: 0;
+                                    font-family: inherit;
+
+                                    &:hover {
+                                        opacity: 0.9;
+                                    }
+                                }
+
+                            }
+
+                            .register-row-3 {
+                                text-align: center;
+                                margin-top: 4px;
+
+                                label {
+                                    color: #5c6873 !important;
+                                    margin: 2px !important;
+                                }
+
+
+                            }
+                        }
+                    }
+
+                    .form-group {
+                        margin-bottom: 0px !important;
+
+                        label {
+                            color: #5c6873 !important;
+                            margin: 2px !important;
+                        }
+
+                        .form-control {
+                            font-size: 14px;
+                            border: 1px solid #052653 !important;
+                            border-radius: 16px !important;
+                            color: #052653 !important;
+                            height: 40px !important;
+
+                            &::placeholder {
+                                color: grey;
+                                font-weight: 600;
+                            }
+                        }
+
+                        span {
+                            position: absolute;
+                            right: 31px;
+                            top: 122px;
+                            cursor: pointer;
+                        }
+
+                        a {
+                            float: right;
+                            color: rgb(255, 99, 57);
+                            text-decoration: none;
+                            cursor: pointer;
+                        }
+
+
+                    }
+
+                    p {
+                        color: rgb(228, 19, 44);
+                        font-size: 12px;
+                        margin-top: 2px;
+                        margin-bottom: 8px;
+                        height: 12px;
+                        font-weight: 600;
+                    }
+
+                    .login-button {
+                        cursor: pointer;
+                        width: 100%;
+                        margin-top: 4px;
+                        display: inline-block;
+                        text-align: center;
+                        vertical-align: middle;
+                        padding: 0.375rem 0.75rem;
+                        line-height: 1.5;
+                        color: white !important;
+                        background: #ff6339 !important;
+                        height: 44px !important;
+                        border-radius: 12px !important;
+                        border: none !important;
+                        font-size: 16px !important;
+                        font-weight: 600 !important;
+                        margin: 0;
+                        font-family: inherit;
+
+                        &:hover {
+                            opacity: 0.9;
+                        }
+                    }
+
+                    .login-row-3 {
+                        text-align: center;
+                        margin-top: 50px;
+
+
+                        label {
+                            display: inline-block;
+                            color: #5c6873 !important;
+                            margin: 2px !important;
+                        }
+
+                        a {
+                            color: rgb(255, 99, 57);
+                            font-weight: 700;
+                            text-decoration: none;
+                        }
+                    }
+
+                    .note {
+                        text-align: center;
+                        color: #00476f;
+                        font-size: 18px;
+                        margin-top: 12px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+
+    .button-home {
+        position: fixed;
+        top: 0;
+        background: #00476f;
+        right: 12px;
+        border-radius: 0 0 12px 12px;
+        padding: 6px;
+        font-size: 14px;
+        color: #fff;
+        width: 150px;
+        height: 32px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .logo-school {
+        height: 51px;
+        position: absolute;
+        right: -75%;
+        top: 4px;
+
+        img {
+            height: 100px;
+        }
+    }
+
+
+}

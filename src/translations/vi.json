@@ -1,0 +1,83 @@
+{
+    "home-header": {
+        "home-name": "Trang Chủ",
+        "service": "Dịch vụ",
+        "news": "Tin tức",
+        "more-info": "Thêm thông tin",
+        "register-login": "Đăng ký/Đăng nhập",
+        "search-placeholder": "Nhập mã đơn hàng mà bạn cần tra cứu...",
+        "slide1-1": "Giảm Đến 25%",
+        "slide1-2": "Khi Mua Phụ Kiện Chính Hãng GHLE",
+        "slide2-1": "GHLE Liên Tục Cập Nhật",
+        "slide2-2": "Danh Sách Khu Vực Giao Nhận",
+        "slide3-1": "Dịch Vụ",
+        "slide3-2": "Giao Hàng Nhanh",
+        "slide4-1": "Dịch Vụ Kho Bãi Và",
+        "slide4-2": "Xử Lý Hàng Hoá",
+        "section-h2": "GIAO HÀNG SIÊU NHANH",
+        "section-p": "GHLE giúp bạn giao hàng đến người nhận nhanh hơn 6 tiếng so với các đơn vị vận chuyển khác.",
+        "post-offices": "Bưu cục",
+        "app-name": " GHLE",
+        "select-province-city": "Chọn tỉnh/Thành phố",
+        "select-district": "Chọn Quận/huyện",
+        "icon-info1-1": "Top công ty giao",
+        "icon-info1-2": "nhận hàng đầu VN",
+        "icon-info2-1": "Mạng lưới phủ sóng",
+        "icon-info2-2": "100% 63 tỉnh thành",
+        "icon-info3-1": "Giao hàng nhanh",
+        "icon-info3-2": "tỷ lệ hoàn hàng thấp",
+        "icon-info4-1": "Hệ thống quản lý",
+        "icon-info4-2": "trực tuyến 24/7",
+        "member": "Thành viên của",
+        "welcome": "Xin chào"
+    },
+    "menu": {
+        "system": {
+            "header": "Hệ thống",
+            "system-administrator": {
+                "header": "Quản trị hệ thống",
+                "user-manage": "Quản lý người sử dụng",
+                "product-manage": "Quản lý đơn hàng",
+                "user-redux": "Quản lý người dùng redux",
+                "register-package-group-or-account": "Quản lý kho hàng"
+            },
+            "system-parameter": {
+                "header": "Tham số hệ thống"
+            }
+        },
+        "admin": {
+            "manage-user": "Người dùng",
+            "manage-delivery-staff": "Quản lý nhân viên GH",
+            "manage-admin": "Quản lý admin",
+            "crud": "crud user",
+            "crud-redux": "Quản lý người dùng",
+            "warehouse": "Kho",
+            "manage-product": "Quản lý sản phẩm",
+            "manage-order": "Quản lý đơn hàng",
+            "manage-warehouse": "Quản lý kho hàng",
+            "report-statistic": "Báo cáo và thống kê",
+            "order": "Đơn hàng"
+        },
+        "manage-user": {
+            "add": "Thêm mới người dùng",
+            "password": "Mật khẩu",
+            "firstname": "Tên",
+            "lastname": "Họ",
+            "address": "Địa chỉ",
+            "phonenumber": "Số điện thoại",
+            "gender": "Giới tính",
+            "role-id": "Vị trí",
+            "position-id": "Mã vị trí",
+            "image": "Ảnh đại diện",
+            "save": "Tạo tài khoản",
+            "choose": "Chọn...",
+            "edit": "Lưu",
+            "province": "Tỉnh/Thành phố",
+            "district": "Quận/Huyện"
+        },
+        "transport": {
+            "manage-transport": "Quản lý đơn hàng",
+            "order-reception": "Tiếp nhận đơn hàng"
+        }
+    }
+}
